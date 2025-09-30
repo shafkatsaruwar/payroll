@@ -32,8 +32,8 @@ Designed for quick HR use from the terminal. Records are appended to a plain tex
 ## Project structure
 
 ```
-payroll_timesheet.sh   # Main script (this file's code)
-payroll.txt            # Data file (created / appended at runtime)
+payroll.sh   # Main script (this file's code)
+payroll_timesheet.txt  # Data file (created / appended at runtime)
 README.md              # This document
 ```
 
