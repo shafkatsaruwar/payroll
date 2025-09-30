@@ -48,16 +48,16 @@ README.md              # This document
 
 ## Installation & Run
 
-1. Save the script file, e.g. `payroll_timesheet.sh`.
+1. Save the script file, e.g. `payroll.sh`.
 2. Make it executable:
 
    ```bash
-   chmod +x payroll_timesheet.sh
+   chmod +x payroll.sh
    ```
 3. Run it:
 
    ```bash
-   ./payroll_timesheet.sh
+   ./payroll.sh
    ```
 
 ---
@@ -126,7 +126,7 @@ If you want this to be production-ready or safer, consider:
 * If `grep` returns nothing during search, run:
 
   ```bash
-  cat payroll.txt
+  cat payroll_timesheet.txt
   ```
 
   to confirm contents.
@@ -137,10 +137,10 @@ If you want this to be production-ready or safer, consider:
     ...
   fi
   ```
-* To format `payroll.txt` output when viewing in the terminal:
+* To format `payroll_timesheet.txt` output when viewing in the terminal:
 
   ```bash
-  cat payroll.txt | column -t -s "|"
+  cat payroll_timesheet.txt | column -t -s "|"
   ```
 
 ---
